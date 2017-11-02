@@ -89,7 +89,7 @@
 		30B6C6871F13274A0048AB1F /* EdgesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgesTests.swift; sourceTree = "<group>"; };
 		30B805B31EB1A680007B9D52 /* View+Layoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Layoutable.swift"; sourceTree = "<group>"; };
 		30B805B91EB1B3B6007B9D52 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		30F3629C1F0AE073007E323B /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = CoreLayout/Scratchpad.playground; sourceTree = "<group>"; };
+		30F3629C1F0AE073007E323B /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = CoreLayout/Scratchpad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		30F3629D1F0AE383007E323B /* Composable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Composable.swift; path = infrastructure/Composable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -71,8 +71,8 @@ func renderTrifecta(text: String = "Core Layout") -> Rectangle {
             style.alignment = .center
             
             let measuredSize = NSAttributedString(string: text, attributes: [
-              NSParagraphStyleAttributeName : style,
-              NSFontAttributeName : ComputedLayout.debugIdentifierFont,
+              NSAttributedStringKey.paragraphStyle : style,
+              NSAttributedStringKey.font : ComputedLayout.debugIdentifierFont,
               ]).boundingRect(
                 with: CGSize(width: CGFloat(options.width), height: CGFloat(options.height)),
                 options: [.usesLineFragmentOrigin, .usesFontLeading],
@@ -96,8 +96,8 @@ func renderTrifecta(text: String = "Core Layout") -> Rectangle {
             style.alignment = .center
             
             let measuredSize = NSAttributedString(string: "is pretty fantastic! is pretty fantastic! ", attributes: [
-              NSParagraphStyleAttributeName : style,
-              NSFontAttributeName : ComputedLayout.debugIdentifierFont,
+              NSAttributedStringKey.paragraphStyle : style,
+              NSAttributedStringKey.font : ComputedLayout.debugIdentifierFont,
               ]).boundingRect(
                 with: CGSize(width: CGFloat(options.width), height: CGFloat(options.height)),
                 options: [.usesLineFragmentOrigin, .usesFontLeading],
